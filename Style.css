@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: #187369;
+}
+
+.inner-header {
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float:left;
+}
+
+.logo-container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo-container h1 span {
+    font-weight: 800;
+}
+
+.nav {
+    height: 100%;
+    float: right;
+}
+
+.nav li {
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.nav li:last-child{
+    padding-right: 0;
+}
+
+.nav li a{
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+
+.main-header1 {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.main-header2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+section {
+    border: 2px solid black;
+    width: 60%;
+    height: 350px;
+    margin: 10px auto 30px;
+    border-radius: 15px;
+}
+
+.section1 {
+    display: table;
+    height: 350px;
+    width: 37%;
+    text-align: center;
+    float: right;
+    border-radius: 0 15px 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #5eaaa1;
+}
+
+.section2 {
+    display: table;
+    height: 350px;
+    width: 37%;
+    text-align: center;
+    float: left;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #5eaaa1;
+}
+
+#personimg {
+    width: 6em;
+    height: 6em;
+}
+
+#clockimg {
+    width: 7em;
+    height: 7em;
+}
+
+.personimgtext {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#firstname, #lastname, #email, #region {
+    display: block;
+    margin: 10px 0 15px 30px;
+    width: 31.5em;
+    height: 2.8em;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#firstname {
+    margin-top: 30px;
+}
+
+#age, #male, #female {
+    display: inline-block;
+    margin: 5px 0 15px 30px;
+    font-size: 14px;
+}
+
+#age {
+    width: 5em;
+    height: 2.8em;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#male, #female {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.timeform {
+    display: block;
+    margin: 10px 10px 15px 330px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.spendtime {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+
+#hour1, #hours2-3, #hours3-5, #hours5 {
+    width: 1.2em;
+    height: 1.2em;
+} 

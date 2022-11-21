@@ -5,8 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    dfggdsdgsds
+    <header>
+        <div class="inner-header">
+            <div class="logo-container">
+                <h1>Survey <span>ME!</span></h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main-header1">
+        <h1>THIS IS #SOCIALMEDIASURVEY</h1>
+    </div>
+    <div class="main-header2">
+        Help us to identify social media advantages and disadvantages
+    </div>
+    <main>
+        <section>
+            <div class="section1">
+                <span class="personimgtext"><img id="personimg" src="img/Person.png" alt="person"><br>
+                <br>Introduce<br>Yourself</span> <br>
+            </div>
+            <form method="post" action="">
+                <label for="firstname"></label>
+                <input type="text" name="firstname" id="firstname" placeholder=" First name">
+                <label for="lastname"></label>
+                <input type="text" name="lastname" id="lastname" placeholder=" Last name">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder=" Your email">
+                <label for="region">
+                    <select name="Region" id="region" required>
+                        <option value="None">Select your region</option>
+                        <option value="Africa">Africa</option>
+                        <option value="America">America</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Europe">Europe</option>
+                    </select>
+                </label>
+                <label for="age"></label>
+                <input type="number" name="age" id="age" placeholder=" Age">
+                <label for="male"><input type="radio" name="personality" id="male"> Male</label>
+                <label for="female"><input type="radio" name="personality" id="female"> Female</label>
+            </form>
+        </section>
+        <section>
+            <div class="section2">
+                <span class="personimgtext"><img id="clockimg" src="img/Clock.jpg" alt="person"><br></span>
+            </div>
+            <form method="post" action="" class="timeform">
+                <h2>How many hours do you spend on social media every day?</h2>
+                <label for="hour1" class="spendtime"><input type="radio" name="spendtime" id="hour1">&nbsp;1 hour</label>
+                <label for="hours2-3" class="spendtime"><input type="radio"  name="spendtime" id="hours2-3">&nbsp;2-3 hour</label>
+                <label for="hours3-5" class="spendtime"><input type="radio" name="spendtime" id="hours3-5">&nbsp;3-5 hour</label>
+                <label for="hours5" class="spendtime"><input type="radio"  name="spendtime" id="hours5">&nbsp;More than 5 hours</label>
+            </form>
+        </section>
+        <section>
+            <div class="section1">
+                <span class="personimgtext"><img id="personimg" src="img/Person.png" alt="person">
+            </div>
+            <form method="post" action="">
+
+            </form>
+        </section>
+    </main>
 </body>
 </html>
