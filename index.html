@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -59,7 +60,7 @@
             </form>
         </section>
         <section>
-            <div class="section2">
+            <div class="section2" id="question1">
                 <span class="personimgtext"><img id="clockimg" src="img/Clock.jpg" alt="person"><br></span>
             </div>
             <form method="post" action="" class="timeform">
@@ -71,13 +72,82 @@
             </form>
         </section>
         <section>
-            <div class="section1">
-                <span class="personimgtext"><img id="personimg" src="img/Person.png" alt="person">
+            <div class="section1" id="question2">
+                <span class="personimgtext"><img id="wifiimg" src="img/wifi.jpg" alt="person">
             </div>
-            <form method="post" action="">
-
+            <form method="post" action="" class="activeform">
+                <h2 class="headingsocial">Which social media channels are you most active on?</h2>
+                <label for="facebook" class="socialmedia"><input type="checkbox" name="socialmedia" id="facebook">&nbsp;Facebook</label>
+                <label for="instagram" class="socialmedia"><input type="checkbox"  name="socialmedia" id="instagram">&nbsp;Instagram</label>
+                <label for="snapchat" class="socialmedia"><input type="checkbox" name="socialmedia" id="snapchat">&nbsp;Snapchat</label>
+                <label for="twitter" class="socialmedia"><input type="checkbox"  name="socialmedia" id="twitter">&nbsp;Twitter</label>
+                <label for="tiktok" class="socialmedia"><input type="checkbox"  name="socialmedia" id="tiktok">&nbsp;Tiktok</label>
+            </form>
+        </section>
+        <section>
+            <div class="section2" id="3">
+                <span class="personimgtext"><img id="clockimg" src="img/Persononphone.jpg" alt="person"><br></span>
+            </div>
+            <form method="post" action="" class="usefulform">
+                <h2 class="headinguseful">How useful is social media for learning?</h2>
+                <label for="veryuseful" class="usefultime"><input type="radio" name="usefultime" id="veryuseful">&nbsp;Very Useful</label>
+                <label for="somewhatuseful" class="usefultime"><input type="radio"  name="usefultime" id="somewhatuseful">&nbsp;Somewhat Useful</label>
+                <label for="notuseful" class="usefultime"><input type="radio" name="usefultime" id="notuseful">&nbsp;Not Useful</label>
+            </form>
+        </section>
+        <section>
+            <div class="section1" id="question4">
+                <span class="personimgtext"><img id="wifiimg" src="img/Numbers.jpg" alt="person">
+            </div>
+            <form method="post" action="" class="activeform">
+                <h2 class="headingsocial">How many social platforms are you on?</h2>
+                <label for="social1" class="socialmedia"><input type="radio" name="social1" id="social1"> 1</label>
+                <label for="social2" class="socialmedia"><input type="radio" name="social1" id="social2"> 2</label>
+                <label for="social3" class="socialmedia"><input type="radio" name="social1" id="social3"> 3</label>
+                <label for="social4" class="socialmedia"><input type="radio" name="social1" id="social4"> 4</label>
+                <label for="social5" class="socialmedia"><input type="radio" name="social1" id="social5"> 5 and above</label>
+            </form>
+        </section>
+        <section>
+            <div class="section2">
+                <span class="personimgtext"><img id="clockimg" src="img/Survey.jpg" alt="person"><br></span>
+            </div>
+            <form method="post" action="" class="thankform">
+                <h2 class="headingthank">Thank you for sharing your opinions</h2>
+                <label for="submit" class="buttoncenter"><button class="button" id="submit">Submit</button></label>
             </form>
         </section>
     </main>
+    <footer class="footer">
+        <div class="inner_footer">
+            <div class="logo-container" id="footerhead">
+                <h1>Survey <span>ME!</span></h1>
+            </div>
+            <div class="footer-third">
+                <h1>Questions</h1>
+                <a href="#question1">Question #1</a>
+                <a href="#question2">Question #2</a>
+                <a href="#question3">Question #3</a>
+                <a href="#question4">Question #4</a>
+            </div>
+            <div class="footer-third">
+                <h1>Need help?</h1>
+                <a href="#">Terms &amp; Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-third" id="finalhead">
+                <h1>Follow Us</h1>
+                <div id="finalfinal">
+                    <li><a href="https://www.linkedin.com/in/rafayilhaciyev/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/RafayilHajiyev"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.facebook.com/Haciyev.Rafayil/"><i class="fa fa-facebook-f"></i></a></li>
+                </div><br><br>
+                <span>© 2022 <br>
+                Hi, My name is Rafayil. <br>
+                I am junior front-end devoloper.<br>
+                This website created by me.</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -4,13 +4,14 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Montserrat';
+    scroll-behavior: smooth;
 }
 
 header {
     width: 100%;
     height: 70px;
     display: block;
-    background-color: #187369;
+    background-color: #187369
 }
 
 .inner-header {
@@ -26,7 +27,7 @@ header {
     float:left;
 }
 
-.logo-container h1 {
+header h1 {
     color: white;
     height: 100%;
     display: table-cell;
@@ -78,11 +79,12 @@ header {
 }
 
 section {
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     width: 60%;
     height: 350px;
-    margin: 10px auto 30px;
-    border-radius: 15px;
+    margin: 10px auto 50px;
+    border-radius: 16.5px;
+    box-shadow: 0px 0px 20px 5px #1e3a36;
 }
 
 .section1 {
@@ -114,7 +116,7 @@ section {
     height: 6em;
 }
 
-#clockimg {
+#clockimg, #wifiimg {
     width: 7em;
     height: 7em;
 }
@@ -154,13 +156,40 @@ label {
 }
 
 #male, #female {
-    width: 1.5em;
-    height: 1.5em;
+    width: 1em;
+    height: 1em;
 }
 
 .timeform {
     display: block;
     margin: 10px 10px 15px 330px;
+}
+
+.activeform {
+    display: block;
+    margin: 30px 340px 15px 40px;
+}
+
+.usefulform {
+    display: block;
+    margin: 10px 10px 15px 350px;
+}
+
+.thankform {
+    display: block;
+    margin: 80px 25px 15px 325px;
+}
+
+.headingsocial {
+    margin-bottom: 10px;
+}
+
+.headinguseful {
+    margin-top: 45px;
+}
+
+.headingthank {
+    text-align: center;
 }
 
 h2 {
@@ -176,7 +205,109 @@ h2 {
     padding: 10px 10px;
 }
 
+.socialmedia {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+
+.usefultime {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+
 #hour1, #hours2-3, #hours3-5, #hours5 {
     width: 1.2em;
     height: 1.2em;
-} 
+}
+
+.button {
+    height: 70px;
+    width: 170px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    font-size: 22px;
+    border-radius: 15px;
+    background-color: #5eaaa1;
+    box-shadow: 0px 0px 20px 5px #1e3a36;
+}
+
+.buttoncenter {
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    display: block;
+    overflow: hidden;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-color: #187369;
+    height: 250px;
+}
+
+.inner-footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100px;
+}
+
+.footer-third h1 {
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.inner_footer h1 {
+    color: white;
+    margin: 10px 10px 10px 40px;
+}
+
+#footerhead {
+    margin-right: 80px;
+    margin-left: 60px;
+}
+
+.footer-third a {
+    display: block;
+    margin: 10px 0 10px 38px;
+    font-size: 14px;
+    color: white;
+}
+
+.inner_footer .footer-third {
+    width: calc(21.6666666667% - 20px);
+    float: left;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.inner_footer .footer-third:last-child {
+    margin-right: 0;
+}
+
+#finalhead li a{
+    display: inline-block;
+    float: left;
+    padding: 0 5px;
+    margin: 3px 0 5px 10px;
+    font-size: 20px;
+}
+
+#finalfinal {
+    margin-left: 30px;
+}
+
+#finalhead span {
+    display: block;
+    margin-left: 40px;
+    color: white;
+    width: 270px;
+    line-height: 25px;
+}
